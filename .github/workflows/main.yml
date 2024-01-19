@@ -1,0 +1,47 @@
+# This is a basic workflow to help learn to scrape data
+
+name: Scrape latest data
+
+#Controls when the workflow will run
+on: 
+#  triggers workflow on push? pull request? run this workflow manually from the Actions tab? run on schedule?
+  push:
+  # pull_request:
+  workflow_dispatch: 
+  schedule: 
+    - cron: '*/5 * * * *'   #chronological scheduling for every 5 minutes
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: 
+  # This workflow contains a single job called "scrape" with 3 steps, see below (# Another example of a type of job is called a "build") 
+  scrape:
+  
+    #The type of runner that the job will run on, this is github virtual machine version
+    runs-on: ubuntu-latest
+    
+     #steps represent sequence of tasks that will be executed as part of the job
+    steps: 
+    #Step 1: Prepare the environment
+    - name: Check out this repo
+      # this step will run v2 of the actions/checkout action. checks out our repository onto the runner, allowing the VM to save a copy of our repository and execute our code.
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    #Step 2: Get the latest data using client URL - cURL tool and store it as a CSV
+    - name: Fetch latest data
+      run: |-
+        curl "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv" -o usgs_current.csv
+    #Step 3: Commit and push
+    - name: Commit and push
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp]" || exit 0
+        git push
+        
+        
+          
+         
+          
