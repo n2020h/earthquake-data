@@ -5,7 +5,7 @@ on:
   push:  # Triggers the workflow on a push to any branch
   workflow_dispatch:  # Allows the workflow to be manually triggered
   schedule:
-    - cron: '*/45 * * * *'  # Schedules the workflow to run every 5 minutes
+    - cron: '*/5 * * * *'  # Schedules the workflow to run every 5 minutes
 
 jobs:
   scrape_and_commit:
@@ -20,7 +20,7 @@ jobs:
 
     # Step 2: Fetch the latest data
     - name: Fetch latest data
-      run: curl "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.csv" -o usgs_most_recent.csv
+      run: curl "https://github.com/orgs/hackforla/projects/34" -o h4la_projects.csv
       # Uses curl to download data from the specified URL and saves it as usgs_most_recent.csv
 
     # Step 3: Commit and push if there are changes
@@ -30,7 +30,7 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         # Sets Git configuration for the commit
 
-        git add usgs_most_recent.csv
+        git add h4la_projects.csv
         # Stages the downloaded file for commit
 
         timestamp=$(date -u)
