@@ -20,8 +20,8 @@ jobs:
 
     # Step 2: Fetch the latest data
     - name: Fetch latest data
-      run: curl "https://github.com/orgs/hackforla/projects/34" -o h4la_projects.csv
-      # Uses curl to download data from the specified URL and saves it as usgs_most_recent.csv
+      run: curl "https://github.com/orgs/hackforla/projects/34" -o h4la_projects.tsv
+      # Uses curl to download data from the specified URL and saves it as 
 
     # Step 3: Commit and push if there are changes
     - name: Commit and push
@@ -30,7 +30,7 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         # Sets Git configuration for the commit
 
-        git add h4la_projects.csv
+        git add h4la_projects.tsv
         # Stages the downloaded file for commit
 
         timestamp=$(date -u)
