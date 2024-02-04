@@ -1,8 +1,11 @@
 time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2024-02-04T21:01:30.676Z,63.9179,-150.1602,7.2,1.8,ml,,,,0.36,ak,ak0241m8bj2j,2024-02-04T21:03:20.930Z,"52 km WSW of Ferry, Alaska",earthquake,,0.3,,,automatic,ak,ak
 2024-02-04T20:53:27.926Z,58.2927,-155.0057,0,1.6,ml,,,,0.36,ak,ak0241m818hk,2024-02-04T20:55:35.064Z,"86 km NNW of Karluk, Alaska",earthquake,,0.8,,,automatic,ak,ak
 2024-02-04T20:53:03.110Z,19.3483333587646,-155.313339233398,2.15000009536743,1.72000003,md,21,68,0.0171,0.129999995,hv,hv74095026,2024-02-04T20:54:34.220Z,"13 km SW of Volcano, Hawaii",earthquake,0.25,0.479999989,0.140000001,10,automatic,hv,hv
+2024-02-04T20:36:48.010Z,18.0263333333333,-66.9051666666667,7.75,2.32,md,6,132,0.05394,0.11,pr,pr71439078,2024-02-04T21:15:44.612Z,"1 km S of Lluveras, Puerto Rico",earthquake,0.86,0.52,0.0430193674791524,4,reviewed,pr,pr
 2024-02-04T20:36:12.370Z,19.2176666259766,-155.363006591797,-0.670000016689301,2.63,ml,46,167,0.09414,0.180000007,hv,hv74095016,2024-02-04T20:40:50.850Z,"12 km E of Pāhala, Hawaii",earthquake,0.4,0.180000007,0.38,21,automatic,hv,hv
 2024-02-04T20:20:36.500Z,38.7965012,-122.8168335,6.46,1.08,md,7,195,0.01567,0.02,nc,nc73998586,2024-02-04T20:39:15.561Z,"6 km WNW of The Geysers, CA",earthquake,2.15,3.92,0.35,10,automatic,nc,nc
+2024-02-04T20:20:21.979Z,36.6887,-115.767,0,2.2,ml,45,48.31,0.159,0.1778,nn,nn00872906,2024-02-04T21:12:01.898Z,"15 km NNW of Indian Springs, Nevada",earthquake,,0,0.31,27,reviewed,nn,nn
 2024-02-04T20:09:14.570Z,33.3073333,-116.2451667,4.62,1.31,ml,68,31,0.07696,0.2,ci,ci40662920,2024-02-04T20:20:29.550Z,"13 km ENE of Borrego Springs, CA",earthquake,0.15,0.47,0.184,27,automatic,ci,ci
 2024-02-04T19:48:56.890Z,19.2043342590332,-155.356826782227,-0.419999986886978,1.79999995,md,26,186,0.1026,0.159999996,hv,hv74094961,2024-02-04T19:50:38.460Z,"12 km E of Pāhala, Hawaii",earthquake,0.54,0.219999999,0.50999999,5,automatic,hv,hv
 2024-02-04T19:31:42.229Z,41.9448,-119.5941,5.3,1.9,ml,4,210.56,0.529,0.1315,nn,nn00872916,2024-02-04T20:43:41.598Z,"47 km ENE of Fort Bidwell, California",earthquake,,2.6,0.7,3,reviewed,nn,nn
@@ -130,7 +133,7 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2024-02-04T07:32:14.240Z,33.6835,-117.3635,8.11,0.64,ml,25,84,0.06245,0.13,ci,ci40662120,2024-02-04T14:45:29.158Z,"4 km WNW of Lake Elsinore, CA",earthquake,0.22,0.53,0.255,13,reviewed,ci,ci
 2024-02-04T07:27:43.000Z,19.3478336334229,-155.309494018555,2,2.05,ml,26,65,0.01447,0.170000002,hv,hv74093916,2024-02-04T07:32:22.700Z,"13 km SW of Volcano, Hawaii",earthquake,0.27,0.550000012,1.16,5,automatic,hv,hv
 2024-02-04T07:26:17.972Z,64.5078,-146.9104,9.8,0.8,ml,,,,0.14,ak,ak0241m04sit,2024-02-04T07:27:38.593Z,"1 km SSW of Salcha, Alaska",earthquake,,0.3,,,automatic,ak,ak
-2024-02-04T07:22:28.780Z,34.1323333,-118.4805,7,2.27,ml,111,42,0.03356,0.25,ci,ci40662112,2024-02-04T20:49:49.960Z,"4 km WSW of Sherman Oaks, CA",earthquake,0.16,0.34,0.228,25,automatic,ci,ci
+2024-02-04T07:22:28.780Z,34.1323333,-118.4805,7,2.27,ml,111,42,0.03356,0.25,ci,ci40662112,2024-02-04T21:01:36.693Z,"4 km WSW of Sherman Oaks, CA",earthquake,0.16,0.34,0.228,25,automatic,ci,ci
 2024-02-04T07:06:24.560Z,38.8251648,-122.7646637,1.32,0.99,md,8,126,0.0067,0.05,nc,nc73998466,2024-02-04T07:36:11.872Z,"4 km W of Cobb, CA",earthquake,0.51,1.25,0.25,10,automatic,nc,nc
 2024-02-04T07:05:26.630Z,38.8240013,-122.7648315,1.77,1.06,md,15,123,0.007582,0.03,nc,nc73998461,2024-02-04T07:23:13.800Z,"4 km W of Cobb, CA",earthquake,0.36,0.53,0.23,13,automatic,nc,nc
 2024-02-04T07:02:07.700Z,38.8235016,-122.7649994,1.7,2.19,md,43,56,0.007947,0.06,nc,nc73998456,2024-02-04T10:30:09.933Z,"4 km W of Cobb, CA",earthquake,0.18,0.3,0.13,43,automatic,nc,nc
@@ -193,7 +196,7 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2024-02-04T01:18:58.463Z,41.2093,78.6939,10,4.8,mb,53,113,1.308,0.7,us,us7000lwuq,2024-02-04T01:29:28.040Z,"124 km WNW of Aykol, China",earthquake,5.07,1.932,0.081,47,reviewed,us,us
 2024-02-04T01:16:01.940Z,36.5731659,-121.1654968,4.98,1.08,md,7,158,0.01609,0.13,nc,nc73998331,2024-02-04T03:05:11.408Z,"5 km NNW of Pinnacles, CA",earthquake,0.86,1.37,0.18,6,automatic,nc,nc
 2024-02-04T01:02:33.326Z,64.4791,-146.9418,6.4,1.2,ml,,,,0.6,ak,ak0241lwf2uf,2024-02-04T01:05:07.862Z,"5 km SSW of Salcha, Alaska",earthquake,,0.3,,,automatic,ak,ak
-2024-02-04T01:01:02.549Z,35.54916667,-96.74233333,5.73,1.87,ml,91,34,0.01349735136,0.22,ok,ok2024ckfd,2024-02-04T12:59:17.243Z,"8 km NW of Prague, Oklahoma",earthquake,,0.4,0.23,42,reviewed,ok,ok
+2024-02-04T01:01:02.549Z,35.54916667,-96.74233333,5.73,1.87,ml,91,34,0.01349735136,0.22,ok,ok2024ckfd,2024-02-04T21:37:35.985Z,"8 km NW of Prague, Oklahoma",earthquake,,0.4,0.23,42,reviewed,ok,ok
 2024-02-04T00:36:46.620Z,38.8364983,-122.8079987,1.54,1.09,md,22,78,0.01318,0.04,nc,nc73998316,2024-02-04T02:21:12.974Z,"8 km WNW of Cobb, CA",earthquake,0.18,0.45,0.07,21,automatic,nc,nc
 2024-02-04T00:17:12.230Z,17.919,-66.2891666666667,13.58,2.14,md,8,187,0.121,0.08,pr,pr71438993,2024-02-04T00:48:42.570Z,"6 km S of Salinas, Puerto Rico",earthquake,0.53,0.38,0.173720196033395,5,reviewed,pr,pr
 2024-02-04T00:13:19.587Z,31.685,-104.402,3.9263,1.7,ml,13,85,0,0.4,tx,tx2024ckdo,2024-02-04T00:22:06.150Z,"54 km S of Whites City, New Mexico",earthquake,0,1.422231357,0.2,11,automatic,tx,tx
@@ -215,13 +218,3 @@ time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,
 2024-02-03T22:04:35.120Z,57.0453333333333,-135.641333333333,6.58,0.19,ml,4,172,,0.06,av,av91130338,2024-02-04T04:11:35.570Z,"18 km W of Sitka, Alaska",earthquake,0.95,0.84,0.471338847035336,4,reviewed,av,av
 2024-02-03T21:57:14.750Z,32.9555,-115.8521667,7.9,1.67,ml,46,37,0.02344,0.21,ci,ci40661344,2024-02-03T22:03:44.361Z,"23 km WSW of Westmorland, CA",earthquake,0.19,0.44,0.187,28,automatic,ci,ci
 2024-02-03T21:56:30.468Z,58.2099,-136.9275,0.4,3.3,ml,,,,0.94,ak,ak0241kl3yvx,2024-02-04T04:01:19.040Z,"34 km W of Elfin Cove, Alaska",earthquake,,0.8,,,automatic,ak,ak
-2024-02-03T21:44:18.070Z,33.3091667,-116.236,10.8,1.52,ml,77,21,0.08131,0.21,ci,ci40661336,2024-02-03T21:54:46.050Z,"14 km ENE of Borrego Springs, CA",earthquake,0.14,0.37,0.15,28,automatic,ci,ci
-2024-02-03T21:40:34.004Z,31.601,-103.939,6.2478,2.5,ml,16,82,0,0.3,tx,tx2024cjyn,2024-02-03T22:01:37.274Z,"34 km WSW of Mentone, Texas",earthquake,0,2.136455513,0.2,12,automatic,tx,tx
-2024-02-03T21:31:49.050Z,38.769165,-122.9593353,5.04,1.24,md,20,160,0.04341,0.05,nc,nc73998286,2024-02-04T00:42:15.385Z,"6 km SE of Cloverdale, CA",earthquake,0.4,1.18,0.16,19,automatic,nc,nc
-2024-02-03T21:30:24.600Z,46.193666666666665,-122.18416666666667,8.99,0.49,ml,17,64,0.00768,0.16,uw,uw61981716,2024-02-03T23:54:10.780Z,"37 km NNE of Amboy, Washington",earthquake,0.66,1.72,0.10785044047516179,11,reviewed,uw,uw
-2024-02-03T21:29:23.890Z,44.6151666666667,-112.596,7.65,0.91,ml,6,137,0.03434,0.05,mb,mb90039863,2024-02-04T15:08:13.630Z,"2 km S of Lima, Montana",earthquake,0.4,0.52,0.0785489913169619,6,reviewed,mb,mb
-2024-02-03T21:26:09.780Z,35.92,-117.6771667,2.69,1.45,ml,28,64,0.03532,0.15,ci,ci40661328,2024-02-03T21:32:17.703Z,"21 km E of Little Lake, CA",earthquake,0.16,0.32,0.108,20,automatic,ci,ci
-2024-02-03T21:24:23.880Z,17.9673333333333,-67.0461666666667,14.44,2.27,md,8,216,0.002786,0.16,pr,pr71438983,2024-02-03T21:34:34.030Z,"0 km S of La Parguera, Puerto Rico",earthquake,0.7,0.86,0.0387165122722446,4,reviewed,pr,pr
-2024-02-03T21:16:34.070Z,57.0503333333333,-135.634166666667,6.06,0.28,ml,4,169,,0.17,av,av91130328,2024-02-04T03:58:26.350Z,"18 km W of Sitka, Alaska",earthquake,1.59,1.32,0.368633465846714,4,reviewed,av,av
-2024-02-03T21:08:41.899Z,31.678,-104.401,4.8535,1.9,ml,16,69,0,0.5,tx,tx2024cjxl,2024-02-03T21:41:22.167Z,"55 km S of Whites City, New Mexico",earthquake,0,1.283301456,0.2,13,automatic,tx,tx
-2024-02-03T21:05:23.235Z,64.4902,-146.8735,10.2,1.2,ml,,,,0.66,ak,ak0241kkt0rm,2024-02-03T21:08:44.219Z,"4 km SSE of Salcha, Alaska",earthquake,,0.2,,,automatic,ak,ak
